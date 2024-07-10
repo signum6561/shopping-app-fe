@@ -7,19 +7,5 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@components/*": ["./src/components/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@routes/*": ["./src/routes/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@services/*": ["./src/services/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@constants/*": ["./src/constants/*"],
-      "@zustand/*": ["./src/zustand/*"]
-    }
-  }
+  ]
 }
