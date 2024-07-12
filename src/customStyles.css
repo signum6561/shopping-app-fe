@@ -1,0 +1,42 @@
+
+.ant-input-affix-wrapper .ant-input {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+    background-color: transparent !important;
+    border-color: #3b82f6 !important; /* Tailwind blue-500 */
+    box-shadow: none !important;
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff4d4f;
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-input-outlined:hover 
+.ant-input-affix-wrapper .ant-input::placeholder {
+    color: white !important;
+}
+
+/* Checkbox Styling */
+.ant-checkbox + span {
+    color: white !important;
+}
+
+/* Button Styling */
+.ant-btn-primary {
+    background-color: white !important;
+    color: #10b981 !important; /* Tailwind emerald-800 */
+    border: none !important;
+}
+
+.ant-btn-primary:hover {
+    background-color: #10b981 !important; /* Tailwind emerald-800 */
+    color: white !important;
+    border: none !important;
+}
